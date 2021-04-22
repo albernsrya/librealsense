@@ -131,7 +131,7 @@ public:
     {
         glDisable(GL_DEPTH_TEST);
         glEnable(GL_BLEND);
-        glBlendFunc(GL_ONE, GL_ONE);
+        glBlendFunc(GL_ONE, GL_ONEE);
 
         // Scale camera drawing to match view
         glScalef(0.001f, 0.001f, 0.001f);
